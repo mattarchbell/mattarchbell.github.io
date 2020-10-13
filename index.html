@@ -1,27 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style> 
-div {
-  width: 100px;
-  height: 100px;
-  background: red;
-  transition: width 2s;
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-div:hover {
-  width: 300px;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden
+  background-color: blue: 
 }
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  text-align: center;
+  color: black;
+  padding: 16px;
+  background-color: aqua;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: orange;
+}
+
+li.dropdown {
+	display: inline-block:
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: pink;
+  width: 100%;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  background-color: pink;
+  padding: 16px;
+  display: block;
+  }
+
+.dropdown-content a:hover {background-color: green}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+*/.dropdown:hover .dropbtn {
+  background-color: red;
+}/*
+
+
 </style>
 </head>
 <body>
 
-<h1>The transition Property</h1>
+<ul>
+  <li><a href="index.html"><i class="fas fa-bars"></i>Home</a></li>
+  
+  <li><a href="#news">News</a></li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Get in touch</a>
+	<div class="dropdown-content">
+	<a href="https://www.linkedin.com/in/matthewarchbell">LinkedIn</a>
+	<a href="https://www.instagram.com/mattarchbell">Instagram</a>
+	<a href="https://twitter.com/mattarchbell">Twitter</a>
+	</div>
+  </li>
+</ul>
 
-<p>Hover over the div element below, to see the transition effect:</p>
-<div></div>
-
-<p><b>Note:</b> YOOOOOOOO</p>
 
 </body>
 </html>
