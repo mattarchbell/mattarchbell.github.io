@@ -49,14 +49,16 @@ p {
   text-indent: 40px;
 }
 
+/* the navbar is modified heavily from the W3schools example found at https://www.w3schools.com/css/css_navbar.asp */
 ul.navbar {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: green;
+  background-color: #445B43;
 }
 
+/** this list item is used in the resume portion to add bulletpoints*/
 ul.cert {
   list-style-type: circle;
   margin-left: 60px;
@@ -64,6 +66,7 @@ ul.cert {
   padding: 10px;
 }
 
+/* these floats deal with the left and right aligned parts of the navbar*/
 .lefty {
   float: left;
 }
@@ -72,18 +75,7 @@ ul.cert {
   float: right;
 }
 
-.coloumnleft {
-  float: left;
-  width: 75%;
-  margin-left: 40px;
-}
-
-.coloumnright {
-  float: left;
-  width: 25%;
-  margin-right: 40px;
-} 
-
+/* This list is formatting the navbar links/tabs and the following is dealing with the mouse hover on these links and the active tab colour*/
 li a {
   display: block;
   color: white;
@@ -94,11 +86,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #445B43;
+  background-color: #087703;
 }
 
 .active {
-  background-color: #087703;
+  background-color: green;
 }
 
 
