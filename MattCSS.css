@@ -55,7 +55,7 @@ ul.navbar {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: #445B43;
+  background-color: #3B5323;
 }
 
 /** this list item is used in the resume portion to add bulletpoints*/
@@ -86,11 +86,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #087703;
+  background-color: #4A7023;
 }
 
 .active {
-  background-color: green;
+  background-color: #78AB46;
 }
 
 
