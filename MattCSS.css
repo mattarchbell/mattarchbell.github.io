@@ -35,38 +35,12 @@ p {
   text-indent: 40px;
 }
 
-.col-1 {width:40%;}
-.col-2 {width: 100%;}
-
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 /* the navbar is modified heavily from the W3schools example found at https://www.w3schools.com/css/css_navbar.asp */
 ul.navbar {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
   background-color: #3B5323;
-}
-
-
-
-/* these floats deal with the left and right aligned parts of the navbar*/
-.lefty {
-  float: left;
-}
-
-.righty {
-  float: right;
 }
 
 /* This list is formatting the navbar links/tabs and the following is dealing with the mouse hover on these links and the active tab colour*/
@@ -75,7 +49,7 @@ li a {
   color: white;
   font-size: 32px;
   text-align: center;
-  padding: 14px 18px;
+  padding: 14px 14px;
   text-decoration: none;
 }
 
